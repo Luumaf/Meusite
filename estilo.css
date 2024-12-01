@@ -1,0 +1,79 @@
+/*
+****** LIMPAR FORMATACOES
+*/
+
+*{
+    margin: 0; /*espacamento externo*/
+    padding: 0; /*espacamento interno*/
+}
+
+/*
+****** formatacoes genericas
+*/
+    body{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    }
+
+    h1{
+        font-size: 50px;
+        
+    }
+
+   #topo{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    background-color:greenyellow;
+    font-size: 15px;
+    
+
+   } 
+   .laranja{
+    color: rgb(206, 66, 2);
+   }
+
+   #menu{
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 20px;
+    
+    
+
+    }
+   #menu a:link, #menu a:visited
+   {
+    padding: 0px 5% 0px 5%;
+    text-decoration: none;
+    color: black;
+    }
+    #menu a:hover
+    {
+        
+        background-color: white;
+        padding: 0px 5% 0px 5%;
+        text-decoration: none;
+        color: black;
+        
+     }
+ 
+#esquerda{
+    float: left;
+    width: 200px ;
+
+       
+
+}
+
+#conteudo{
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}

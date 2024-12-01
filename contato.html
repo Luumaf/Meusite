@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luumaf</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div id="topo">
+        <h1>
+            <span class="laranja">Luu</span>maf
+
+        </h1>
+        
+        Página pessoal de Luciano Gomes Martines Filho
+
+
+    </div>
+
+    <div id="menu">
+        <a href="index.html">Sobre mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portifolio.html">Portifólio</a>
+        <a href="contato.html">Contato</a>
+
+    </div>
+
+    <div id="esquerda">
+        <img src="Imagens/Capturar.PNG" alt="foto" width="200" height="300">
+
+    </div>
+
+
+
+    <div id="conteudo">
+        <h1>Contato</h1>
+               
+        Nome: <input type="text" name="Nome" id="Nome" > <br>
+        Email: <input type="email" name="email" id="email"><br>
+
+        Comentários: <br><textarea name="mensagem" id="" rows="10" cols="50">
+        </textarea>
+        <input type="button" value="Enviar" onclick="confirma()">
+    
+
+    </div>
+
+    <script>
+        function confirma(){
+            var Nomee = document.getElementById("Nome").value
+
+            console.log('Obrigado, ' + Nomee + ' Entraremos em contato');
+            alert("Obrigado, " + Nomee + ", Entraremos em contato");
+
+        }
+
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
